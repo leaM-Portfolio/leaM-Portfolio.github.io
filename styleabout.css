@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "pramukh_roundedblack" ;
+    src: url("fonts/pramukhrounded-black-webfont.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+body{
+    background-color: #ece9e5;
+} 
+
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 100px 100px 100px; */
+    justify-items: baseline;
+    align-items: center;
+    gap: 24px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    grid-column: 1/-1;
+    justify-self: stretch;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    background-color: #ece9e5;
+
+}
+
+.nav a{
+    color:rgb(120, 120, 120);
+    text-decoration: none;  
+    font-family: "indivisible", sans-serif;
+    font-weight: 700;
+    font-style: normal;                                                               
+    padding: 10px 0;
+    transition: 0.5s;
+    
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.gridprez{
+    display:grid;
+    grid-column: 1/-1;
+    grid-template-columns: 1fr 1fr;
+    justify-items: baseline;
+    /* align-items: center; */
+    gap: 24px;
+    padding-top: 10px;
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.prez{
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+h1{
+    color:black;
+    font-size: 90px;
+    font-family: "pramukh_roundedblack", sans-serif;
+}

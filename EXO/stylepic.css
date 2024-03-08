@@ -1,0 +1,38 @@
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 100px 100px 100px; */
+    justify-items: center;
+    align-items: center;
+    gap: 24p; 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.grid a{
+    display: grid;
+    background: black;
+    color: #fff
+}
+
+.grid a img,
+.grid a span{
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+}
+
+.grid a span{
+    opacity: 0;
+}
+
+.grid a :hover samp{
+    opacity: 1;
+}
+
+.grid a :hover img{
+    opacity: 0.5;
+}
