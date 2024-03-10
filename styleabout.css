@@ -57,7 +57,7 @@ body{
     grid-template-columns: 1fr 1fr;
     justify-items: baseline;
     /* align-items: center; */
-    gap: 24px;
+    gap: 20px;
     padding-top: 10px;
 }
 
@@ -75,4 +75,10 @@ h1{
     color:black;
     font-size: 90px;
     font-family: "pramukh_roundedblack", sans-serif;
+}
+
+p {
+    color: black;
+    font-size: 14px;
+    font-family: "indivisible", sans-serif;
 }

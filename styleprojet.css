@@ -10,6 +10,8 @@ body {
     background-color: #ece9e5;
 
 }
+
+
 h1{
     margin: 0;
 }
@@ -48,6 +50,10 @@ img{
     background-color: #ece9e5;
 }
 
+.titre.sticky.page-photo{
+    top:28px;
+    background-color: #000000;
+}
 
 .nav {
     grid-column: 1/-1;
@@ -116,6 +122,21 @@ h1 {
        background-size: cover;
 }
 
+.parfum{
+    background-image: url("photo/fondfleur_2000.png");
+       background-position: center 20px; 
+       background-attachment: fixed;
+       background-position: center 100px;
+       background-size: cover;
+}
+
+.sem{
+    background-image: url("photo/fondsem_2000.png");
+      background-position: center 20px; 
+      background-attachment: fixed;
+      background-position: center 100px;
+      background-size: cover;
+}
 
 
 h2 {
@@ -125,6 +146,27 @@ h2 {
     font-weight: 900;
 }
 
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: "indivisible", sans-serif;
+    font-weight: 900;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "pramukh_roundedblack", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 80px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+h4{
+    margin: 0;
+}
 
 p {
     color: black;
@@ -139,6 +181,13 @@ p1{
 
 }
 
+p2{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: "indivisible", sans-serif;
+
+}
+
 .header.sticky{
     position: sticky;
     top: auto;
@@ -148,3 +197,8 @@ p1{
 .header .sticky{
     top:150px;
 }
+
+.page-photo{
+    background: #000;
+}
+
